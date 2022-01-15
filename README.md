@@ -13,7 +13,7 @@ This project is a simple realization of "bicycle service" system. User can log i
 - manufacturer.
 
 ---
-##Implementation details
+## Implementation details
 The project is designed according to the principles of SOLID, Dependency injection and Inversion of control. Project based on famous 3-layered architecture:
 
 1. Data access layer (DAO)
@@ -21,7 +21,7 @@ The project is designed according to the principles of SOLID, Dependency injecti
 3. Presentation layer (controllers)
 
 ---
-##Technologies
+## Technologies
 - Apache Tomcat
 - MySQL
 - JDBC
@@ -32,7 +32,7 @@ The project is designed according to the principles of SOLID, Dependency injecti
 - Maven Checkstyle Plugin
 
 ---
-##Setup
+## Setup
 1. Install:
 - IntelliJ IDEA Ultimate
 - ApacheTomcat
