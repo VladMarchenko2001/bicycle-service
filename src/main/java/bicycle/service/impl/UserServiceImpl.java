@@ -1,9 +1,10 @@
-package bicycle.service;
+package bicycle.service.impl;
 
 import bicycle.dao.UserDao;
 import bicycle.lib.Inject;
 import bicycle.lib.Service;
 import bicycle.model.User;
+import bicycle.service.UserService;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,5 +1,6 @@
-package bicycle.dao;
+package bicycle.dao.impl;
 
+import bicycle.dao.BicycleDao;
 import bicycle.exception.DataProcessingException;
 import bicycle.lib.Dao;
 import bicycle.model.Bicycle;
@@ -117,7 +118,7 @@ public class BicycleDaoImpl implements BicycleDao {
 
     @Override
     public boolean delete(Long id) {
-        String selectQuery = "UPDATE bicycle SET is_deleted = true WHERE id = ?"
+        String selectQuery = "UPDATE bicycles SET is_deleted = true WHERE id = ?"
                 + " and is_deleted = false";
         try (Connection connection = ConnectionUtil.getConnection();
                  PreparedStatement deleteCarStatement =
