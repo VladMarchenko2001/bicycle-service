@@ -1,5 +1,6 @@
-package bicycle.dao;
+package bicycle.dao.impl;
 
+import bicycle.dao.UserDao;
 import bicycle.exception.DataProcessingException;
 import bicycle.lib.Dao;
 import bicycle.model.User;

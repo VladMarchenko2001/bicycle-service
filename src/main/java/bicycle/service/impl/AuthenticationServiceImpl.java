@@ -1,9 +1,11 @@
-package bicycle.service;
+package bicycle.service.impl;
 
 import bicycle.exception.AuthenticationException;
 import bicycle.lib.Inject;
 import bicycle.lib.Service;
 import bicycle.model.User;
+import bicycle.service.AuthenticationService;
+import bicycle.service.UserService;
 import java.util.Optional;
 
 @Service
